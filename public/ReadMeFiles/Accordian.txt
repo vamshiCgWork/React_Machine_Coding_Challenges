@@ -1,0 +1,7 @@
+Data Driven: You should receive an array of objects (each with a title and content).
+
+Toggle Logic: Clicking the header of an item should expand its content.
+
+Single Selection (The Trick): Only one item should be open at a time. If I click Item A, and then click Item B, Item A should automatically close.
+
+Close on Second Click: If I click an already open item, it should collapse.

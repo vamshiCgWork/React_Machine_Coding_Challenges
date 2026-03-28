@@ -1,0 +1,7 @@
+Textarea: Create a box where users can type.
+
+Live Counter: Show a count of characters (e.g., "15 / 100").
+
+Validation: * If the count is between 80 and 100, the text should turn Yellow (Warning).
+
+If the count is over 100, the text should turn Red and the "Submit" button should be disabled.

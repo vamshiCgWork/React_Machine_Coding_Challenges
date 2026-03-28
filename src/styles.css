@@ -1,0 +1,115 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.challenge-container {
+  border: 1px solid;
+}
+.star-container {
+  .star {
+    font-size: 2rem;
+    color: #ccc;
+    cursor: pointer;
+  }
+
+  .star.active {
+    color: #ffc107;
+  }
+}
+.accordion {
+  width: 400px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+
+  .accordion-item {
+    border-bottom: 1px solid #eee;
+  }
+
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    cursor: pointer;
+    background: #f9f9f9;
+  }
+
+  .accordion-content {
+    padding: 15px;
+    background: #fff;
+    /* You will need to handle visibility in React */
+  }
+  .accordion-content {
+    padding: 0 15px; /* Vertical padding 0 when closed */
+    overflow: hidden;
+    transition: all 0.3s ease-out; /* This creates the "Slide" effect */
+    background: #fff;
+  }
+}
+.characterCounter {
+  padding: 10px;
+  .text-input {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s;
+  }
+
+  /* Logic-based classes */
+  .text-input.warning {
+    border-color: #ffc107; /* Yellow */
+  }
+
+  .text-input.error {
+    border-color: #dc3545; /* Red */
+  }
+
+  .counter.warning {
+    color: #856404;
+    font-weight: bold;
+  }
+
+  .counter.error {
+    color: #dc3545;
+    font-weight: bold;
+  }
+
+  .error-msg {
+    color: #dc3545;
+    font-size: 0.8rem;
+    margin-top: 5px;
+  }
+
+  .submit-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+}
+.apifetching {
+  .input {
+    margin-top: 1rem;
+  }
+  .user-list {
+    list-style: none;
+    padding: 0;
+  }
+  .user-card {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+}
+.todo {
+  .todo-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+  }
+
+  .todo-item span {
+    flex-grow: 1;
+  }
+}

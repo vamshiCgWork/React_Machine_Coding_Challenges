@@ -1,0 +1,11 @@
+The Requirements:
+Add: A text input and an "Add" button.
+
+Display: A list of todos. Each todo should be an object:
+{ id: Date.now(), text: "Learn React", completed: false }.
+
+Toggle: Clicking the text of a todo should flip the completed boolean.
+
+Delete: A button to remove the todo from the list.
+
+Empty State: If the list is empty, show "No tasks yet!"
