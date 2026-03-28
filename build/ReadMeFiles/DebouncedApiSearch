@@ -1,0 +1,9 @@
+State 1: searchTerm (Updates immediately for the input box).
+
+State 2: results (The data from the API).
+
+The Effect: Use a useEffect that listens to searchTerm.
+
+The Timer: Inside the effect, wait 500ms before firing the fetch call.
+
+The Cleanup: If the user types a new character before 500ms is up, kill the old timer and start a new one.

@@ -1,0 +1,5 @@
+Live Clock: Display the current time in HH:MM:SS format.
+
+Auto-Update: The time must update every second automatically.
+
+Memory Management (The Trick): You must clean up your timer. If the component unmounts, the timer should stop so it doesn't crash the browser.

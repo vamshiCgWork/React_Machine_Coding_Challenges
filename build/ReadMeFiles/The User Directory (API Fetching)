@@ -1,0 +1,19 @@
+Endpoint: Fetch data from https://jsonplaceholder.typicode.com/users.
+
+Loading State: Show a <h1>Loading...</h1> message while the request is in flight.
+
+Error Handling: If the API returns an error (or the URL is wrong), show an error message like <h1>Something went wrong!</h1>.
+
+Data Rendering: Map through the users and display their Name and Email.
+
+Bonus (Senior Level): Add a "Refresh" button that re-fetches the data without reloading the whole page.
+
+STAGE 2:
+
+Fetch: Get the users from the same API.
+
+Search Input: Add a text input at the top.
+
+Live Filter: As I type in the input, the list of users should filter locally (don't call the API again!).
+
+Case Insensitive: Searching for "leanne" should find "Leanne Graham".

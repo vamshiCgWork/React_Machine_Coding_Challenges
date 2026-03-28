@@ -1,0 +1,7 @@
+Display 5 stars (using Unicode ★ or an SVG).
+
+Hover State: When I mouse over the 3rd star, stars 1, 2, and 3 should highlight.
+
+Click State: When I click the 3rd star, it should stay highlighted even after I move my mouse away.
+
+Reset: If I click the same star again, it should reset to 0 (optional/bonus).
