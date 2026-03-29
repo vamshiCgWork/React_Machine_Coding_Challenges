@@ -1,0 +1,11 @@
+State: items (array) and page (number, starting at 1).
+
+API: https://jsonplaceholder.typicode.com/posts?_page=${page}&_limit=10.
+
+The Fetch: When the component mounts OR when page changes, fetch data.
+
+The "Senior" Logic: Do not replace the items state. 
+
+You must append the new data: setItems(prev => [...prev, ...newData]).
+
+The Button: A button at the bottom that says "Load More" (disabled while loading).

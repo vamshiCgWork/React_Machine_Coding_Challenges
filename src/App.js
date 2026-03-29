@@ -7,6 +7,7 @@ import DigitalClock from "./components/DigitalClock";
 import StarRating from "./components/StarRating";
 import TodoApp from "./components/Todo";
 import "./styles.css";
+import LoadMoreFeed from "./components/LoadMore";
 
 export default function App() {
   const [list, setList] = useState(["list1", "list2", "list3"]);
@@ -18,6 +19,7 @@ export default function App() {
   return (
     <div className="App">
       <DigitalClock />
+      <LoadMoreFeed />
       <TodoApp />
       <DebouncedApiSearch />
       <APIUserDirectory />
