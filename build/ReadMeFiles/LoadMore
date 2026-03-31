@@ -9,3 +9,36 @@ The "Senior" Logic: Do not replace the items state.
 You must append the new data: setItems(prev => [...prev, ...newData]).
 
 The Button: A button at the bottom that says "Load More" (disabled while loading).
+
+
+********
+
+Input: The hook should take a url as a string.
+
+Output: The hook should return an object containing:
+
+data: The fetched JSON.
+
+isLoading: Boolean status.
+
+error: Any error message.
+
+refetch: A function to trigger the fetch again manually.
+
+The Goal: Clean up your LoadMoreFeed component so it only handles UI, while the hook handles the Network.
+
+
+
+Input: The hook should take a url as a string.
+
+Output: The hook should return an object containing:
+
+data: The fetched JSON.
+
+isLoading: Boolean status.
+
+error: Any error message.
+
+refetch: A function to trigger the fetch again manually.
+
+The Goal: Clean up your LoadMoreFeed component so it only handles UI, while the hook handles the Network.
